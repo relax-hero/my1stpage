@@ -1,0 +1,206 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  font-family: "Avenir Next"
+}
+
+li {
+  list-style: none;
+}
+
+.clear {
+  clear: left;
+}
+
+header {
+  height: 80px;
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 0px;
+  z-index: 10;
+  width: 100%;
+}
+
+.header-left {
+  float: left;
+}
+.logo {
+  height: 60px;
+}
+
+.header-list li {
+  float: left;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(225, 225, 225, 0.2);
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: rgba(225, 225, 225, 0.4)
+}
+
+.header-right a{
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  dislplay: block;
+}
+
+.menu-icon {
+  color:white;
+  float: right;
+  display: none;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.top-wrapper {
+  padding-top: 180px;
+  background-image: url(fail.photo/IMG_20200113_132257.jpg);
+  color:white;
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+}
+
+
+
+.container h1 {
+  font-size: 80px;
+  opacity: 0.8;
+  letter-spacing: 0.5px;
+}
+
+.container h2 {
+  font-size: 60px;
+  opacity: 0.8;
+}
+
+.container span {
+  color: #ff4a4a
+}
+
+.btn {
+  padding: 8px 15px;
+  color: white;
+  display: inline-block;
+  opacity: 0.6;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  border-radius: 25px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+
+.trip-wrapper {
+  height: 230px;
+  padding-bottom: 80px;
+  background-color: hsl(0, 0%, 97%);
+  text-align: center;
+  }
+
+.heading {
+  border-bottom: 10px solid #0886a5;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+  opacity: 0.8;
+}
+
+.trips {
+float: left;
+width: 20%;
+}
+
+.trips-icon {
+  position: relative;
+}
+
+.trips-icon p {
+  position: absolute;
+  top: 7px;
+  width: 100%;
+  color: white;
+  font-family: fantasy;
+  opacity: 0.5;
+  font-size: 30px;
+}
+
+.txt-contents {
+  width: 80%;
+  font-size: 24px;
+  font-family: fantasy;
+  text-align: center;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid 3eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+.message {
+  background-color: #5dca88;
+  padding: 15px 40px;
+  cursor: pointer;
+  box-shadow: 0px 7px #1a7940;
+}
+
+.message:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+footer p {
+  color: #f6f2f8;
+  font-size: 22px;
+}
+footer {
+  padding-top: 30px;
+  height: 50px;
+  background-color: rgb(199, 198, 198);
+}
